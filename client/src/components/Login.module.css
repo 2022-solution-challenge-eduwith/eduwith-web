@@ -1,0 +1,133 @@
+/*.back{
+    position: fixed;
+    z-index: 980;
+    top: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222222;
+    opacity: 0.3;
+}*/
+.loginbox{
+    position: absolute;
+width: 677px;
+height: 939px;
+left: 382px;
+top: 172px;
+
+border-radius: 10px;
+background-color: white;
+}
+.logo{
+    position: absolute;
+width: 277px;
+height: 47px;
+left: 240px;
+top: 95px;
+
+font-family: Recipekorea;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+
+color: #5D6466;
+}
+
+.text{
+    position: absolute;
+    width: 100px;
+    height: 49px;
+    left: 289px;
+    top: 193px;
+    
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 49px;
+    
+    color: #000000;
+}
+.id{
+    position: absolute;
+    width: 547px;
+    height: 93px;
+    left: 65px;
+    top: 293px;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+}
+.pw{
+    position: absolute;
+    width: 547px;
+    height: 93px;
+    left: 65px;
+    top: 413px;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 41px;
+    
+}
+.findpw{
+    position: absolute;
+    width: 282px;
+    height: 33px;
+    left: 65px;
+    top: 533px;
+    
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    
+    color: rgba(93, 100, 102, 0.7);
+}
+.sign{
+    position: absolute;
+    width: 89px;
+    height: 33px;
+    left: 523px;
+    top: 533px;
+    
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;    
+    
+    color: rgba(93, 100, 102, 0.7);
+}
+.lbtn{
+    position: absolute;
+    width: 547px;
+    height: 93px;
+    left: 65px;
+    top: 606px;
+    
+    background: #4673EA;
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+}
+.icon{
+    margin-top: 30px;
+    margin-left: 580px;
+}

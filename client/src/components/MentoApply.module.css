@@ -1,0 +1,58 @@
+/*멘토 창*/
+img {
+  display: fixed;
+  width: 250px;
+  height: 48vh;
+  margin-top: 7vh;
+  margin-left: 3.5vw;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+.book {
+  position: fixed;
+  left: 74vw;
+  top: 20vh;
+  color: #4673EA;
+}
+
+.title {
+  font-size: 24pt;
+  margin-top: 45px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.content {
+  width: 38vw;
+  height: 41vh;
+  background-color: #fffcca;
+  padding: 20px;
+}
+
+.content > p {
+  font-size: 18pt;
+  margin-bottom: 15px;
+}
+
+.btn {
+  margin-top: 30px;
+  width: 300px;
+  height: 60px;
+  background-color: #4673EA;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 22pt;
+  color: white;
+  font-weight: 550;
+  cursor: pointer;
+}
+
+.x {
+  display: fixed;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-right: 25px;
+  color: grey;
+}

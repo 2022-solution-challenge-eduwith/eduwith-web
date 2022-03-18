@@ -1,0 +1,127 @@
+.wrap{
+    width: 100%;
+    height: 100%;
+}
+.vbox{
+    width: 1400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.vtitle{
+    margin-left: 98px;
+    margin-top: 56px;
+    
+    font-family: Noto Sans;
+    font-weight: 600;
+    font-size: 28px;
+}
+.vbtn{
+    width: 202px;
+    height: 49px;
+    margin-left: 98px;
+    margin-top: 394px;
+
+    background-color: white;
+    border: 3px solid #4673EA;
+    border-radius: 30px;
+    
+    font-family: Noto Sans;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #4673EA;
+}
+.vexbox{
+    width: 921px;
+    height: 401px;
+    margin-left: 500px;
+    display: flex;
+    
+}
+.vex > button {
+    border: none;
+    background-color: none;
+    color: #4673EA;
+
+    font-size: 30px;
+}
+.vex > img{
+    
+}
+
+.lbox{
+    
+width: 1438px;
+height: 412px;
+left: -1px;
+top: 1820px;
+margin: 100px;
+
+background: #F1F5FA;
+border-radius: 0px 200px 200px 0px;
+}
+
+.ltitle{
+
+width: 162px;
+height: 38px;
+left: 98px;
+top: 56px;
+
+font-family: Noto Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 38px;
+
+color: #222222;
+}
+.lbtn{
+
+width: 202px;
+height: 49px;
+left: 97px;
+top: 304px;
+
+background-color: white;
+border: 3px solid #4673EA;
+box-sizing: border-box;
+border-radius: 30px;
+
+font-family: Noto Sans;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #4673EA;
+}
+
+/* .vex1{
+    position: absolute;
+width: 308px;
+height: 398.82px;
+left: -2px;
+top: 2px;
+
+background: #F1F5FA;
+}
+.vex2{
+    position: absolute;
+width: 308px;
+height: 398.82px;
+left: 305px;
+top: 2px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.vex3{
+    position: absolute;
+width: 308px;
+height: 398.82px;
+left: 613px;
+top: 2px;
+
+background: #F1F5FA;
+}
+ */

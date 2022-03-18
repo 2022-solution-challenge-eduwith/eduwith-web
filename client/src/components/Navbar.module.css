@@ -1,0 +1,52 @@
+.navbar {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.subvar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 1rem;  
+  background-color: white;
+}
+
+.navLogo {
+  text-decoration: none;
+  color: gray;
+}
+.navLinks {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 20px;
+  list-style: none;
+  color: gray;
+}
+
+.subLinks {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 15px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.navItem {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
