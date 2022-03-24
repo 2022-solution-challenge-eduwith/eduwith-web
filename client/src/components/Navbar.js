@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import styles from "./Navbar.module.css";
 import {NavLink, Link} from 'react-router-dom';
 
@@ -15,8 +15,8 @@ function Navbar() {
   return (
     <div>
     <nav className={styles.navbar}>
-        <div>
-          EduWith
+        <div className={styles.logo}>
+          <Link to="/">EduWith</Link>
         </div>
         <ul className={styles.navLinks}>
           <li className={styles.navItem}>
@@ -27,17 +27,17 @@ function Navbar() {
             회원가입
           </li>
 
-          <li className={styles.navItem}>
-            마이페이지
+          <li  className={styles.navItem}>
+            <Link to="/Mypage" style={{textDecoration: 'none'}} >마이페이지</Link>
           </li>
         </ul>
     </nav>
     <nav className={styles.subvar}>
       <ul className={styles.subLinks}>
-        <li><NavLink to="/mentoring" activeStyle={activeStyle} className={styles.link}> Mentoring</NavLink></li>
-        <li><NavLink to="/volunteer" activeStyle={activeStyle} className={styles.link}> Volunteer</NavLink></li>
-        <li><NavLink to="/library" activeStyle={activeStyle} className={styles.link}>Electronic Library</NavLink></li>
-        <li><NavLink to="/guide" activeStyle={activeStyle} className={styles.link}>User Guide</NavLink></li>
+        <li><NavLink to="/Mentoring" style={({ isActive }) => isActive ? activeStyle : undefined } className={styles.link}> Mentoring</NavLink></li>
+        <li><NavLink to="/Volunteer" style={({ isActive }) => isActive ? activeStyle : undefined } className={styles.link}> Volunteer</NavLink></li>
+        <li><NavLink to="/Library" style={({ isActive }) => isActive ? activeStyle : undefined } className={styles.link}>Electronic Library</NavLink></li>
+        <li><NavLink to="/Guide" style={({ isActive }) => isActive ? activeStyle : undefined } className={styles.link}>User Guide</NavLink></li>
       </ul>
     </nav>
   </div>

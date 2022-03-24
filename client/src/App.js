@@ -5,7 +5,9 @@ import Main from "./routes/Main";
 import Login from "./components/Login";
 import Volunteer from './routes/Volunteer';
 import { createGlobalStyle } from 'styled-components';
-import { useState } from 'react';
+import { useEffect } from 'react';
+
+const axios = require('axios');
 
 
 const GlobalStyle = createGlobalStyle
@@ -15,20 +17,22 @@ const GlobalStyle = createGlobalStyle
 
 function App() {
 
+  useEffect(() => {
+    axios.get("/api")
+    .then(function (response) {console.log(response); })
+    .catch(function (error) {console.log(error);})
+  }, []);
+
   return (
-    <Volunteer/>
-    /*<Router>
+    <Router>
       <Routes>
-        <Route path="/" element={<Main/>}>
+        <Route path="/" element={<Home/>}>
         </Route>
         <Route path="/Volunteer" element={<Volunteer/>}>
         </Route>
       </Routes>
-    </Router>*/
+    </Router>
   );
 }
 export default App;
-{/* <Main>
-      <div onClick={onLoginToggle}>로그인</div>
-      {loginToggle && <Login onLoginToggle={onLoginToggle} />}
-    </Main> */}
+
