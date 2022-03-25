@@ -46,9 +46,13 @@ connection.query('SELECT * FROM volunteerlist', function(error, results, fields)
 
 connection.end();
 
+app.get('/', function(req, res){
+  res.send({ test: "hello"}); 
+});
+
 // 4-3. 라우터 처리
-app.use('/', indexRouter);
-//app.use('/volunteer', volunteerRouter);
+app.use('/api', indexRouter);
+app.use('/api/Volunteer', volunteerRouter);
 
 // 4-4. 404에러를 찾고 error handler로 인계 (미들웨어)
 app.use((req, res, next) => {

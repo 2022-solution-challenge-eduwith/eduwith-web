@@ -19,8 +19,8 @@ function App() {
 
   useEffect(() => {
     axios.get("/api")
-    .then(function (response) {console.log(response); })
-    .catch(function (error) {console.log(error);})
+    .then(function (response) {console.log(response.data.test); })
+    .catch(function (error) {console.log(error.response);})
   }, []);
 
   return (
